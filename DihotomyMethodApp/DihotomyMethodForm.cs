@@ -115,7 +115,7 @@ namespace DihotomyMethodApp
                     return;
                 }
 
-                if (Function(a) * Function(b) > 0)
+                if (Function(a) * Function(b) >= 0)
                 {
                     string warning = "⚠️ Нарушено условие метода дихотомии!\nf(a) * f(b) должно быть < 0\n\n" +
                                    $"f({a}) = {Function(a):F4}\n" +
